@@ -1,0 +1,12 @@
+# runtime data (never commit)
+memory/
+db/
+AUDIT.log
+L2-EVENTS/
+reinject/
+backups/
+logs/
+config.json
+
+# deps
+node_modules/

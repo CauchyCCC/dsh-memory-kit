@@ -1,0 +1,19 @@
+{
+  "name": "dsh-memory-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "File-based cross-session memory for DeepSeek Harness: verbatim recall, audit timeline, hot topics, dream consolidation.",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "recall:index": "node tools/recall-index.mjs",
+    "recall:query": "node tools/recall-query.mjs",
+    "audit:compile": "node tools/audit-compile.mjs",
+    "topics:build": "node tools/topics.mjs build",
+    "topics:top": "node tools/topics.mjs top",
+    "size": "node tools/check-size.mjs"
+  },
+  "license": "MIT"
+}

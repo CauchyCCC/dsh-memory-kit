@@ -1,0 +1,5 @@
+{
+  "workspace": "D:/path/to/your/workspace",
+  "memoryDir": "D:/path/to/your/workspace/memory",
+  "sessionsRoot": "C:/Users/<you>/.dsh/sessions"
+}
