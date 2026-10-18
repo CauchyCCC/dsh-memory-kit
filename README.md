@@ -1,5 +1,7 @@
 # dsh-memory-kit
 
+English | [中文](README.zh.md)
+
 Cross-session memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH),
 built from **plain files + `node:sqlite` + scheduled scripts**. No plugin required.
 
